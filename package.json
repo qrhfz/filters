@@ -1,0 +1,19 @@
+{
+  "name": "filters",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eta": "^3.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.1"
+  }
+}

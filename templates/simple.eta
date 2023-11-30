@@ -1,0 +1,34 @@
+<% it.ddgResultDomains.forEach(function(domain){ %>
+duckduckgo.com##li:has(a[href*="<%= domain %>"])
+<% }) %>
+<% /* twitter (via nitter) */ %>
+nitter.net##.timeline-item:has(a:has-text("shope.ee"))
+nitter.net##.timeline-item:has(a:has-text("kitabisa.com"))
+nitter.net##.timeline-item:has(a:has-text(/jual/i))
+<% it.twitterUsers.forEach(function(username){ %>
+nitter.net##.timeline-item:has(a.username[title="@<%= username %>"])
+<% }) %>
+<% /* kompas.com */ %>
+kompas.com##.kcm-track
+kompas.com##.gate-kgplus
+kompas.com##.kgnowGate
+kompas.com##.wSpec-item > .clBrandzview
+kompas.com##.clearfix.gramedia__gate
+kompas.com##.video-yt
+kompas.com##.listNews .box-shadow-new:has-text(/advertorial/i)
+kompas.com###rekomendasi-konten-pilihan-untukmu-aiml
+kompas.com##.rVideo-middle-sticky
+kompas.com##.rVideo-middle-player
+||widget.kompas.com/*$subdocument
+<% /* tribunnews.com */ %>
+tribunnews.com###jualbeli2022
+tribunnews.com##.op-interactive
+tribunnews.com##.widgettshop
+<% /* detik.com */ %>
+detik.com##.parallaxindetail.scrollpage
+detik.com##.paradetail
+<% /* kapanlagi */ %>
+kapanlagi.com##.nativevideos-slotv2.slot-youtubev2
+<% /* 1cak */ %>
+1cak.com##div[id^=posts]:has-text(pxl)
+1cak.com##div[id^=posts]:has-text(indra48)
