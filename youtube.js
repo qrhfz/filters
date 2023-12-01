@@ -7,5 +7,7 @@ export const channelHandles = [
   "thewokecritic",
   "TheBonebridger",
   "OverlordDVD",
-  "EndymionTv"
+  "EndymionTv",
+  "BaggageClaim",
+  "thejessegrant"
 ]
