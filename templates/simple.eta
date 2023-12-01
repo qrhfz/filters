@@ -10,7 +10,7 @@ nitter.net##.timeline-item:has(a.username[title="@<%= username %>"])
 <% }) %>
 
 <% it.youtubeChannels.forEach(function(handle){ %>
-##ytd-video-renderer.ytd-item-section-renderer.style-scope:has(#channel-info>ytd-channel-name a[href="/@<%= handle %>"])
+youtube.com##ytd-video-renderer.ytd-item-section-renderer.style-scope:has(#channel-info>ytd-channel-name a[href="/@<%= handle %>"])
 <% }) %>
 
 <% /* kompas.com */ %>
