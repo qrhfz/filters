@@ -3,6 +3,7 @@
 import { Eta } from "eta"
 import { domains } from "./duckduckgo.js";
 import { users } from "./twitter.js";
+import { channelHandles } from "./youtube.js";
 import fs from "node:fs";
 
 const eta = new Eta({ views: "./templates" })
@@ -11,6 +12,7 @@ const eta = new Eta({ views: "./templates" })
 const res = eta.render("./simple", {
   ddgResultDomains: domains,
   twitterUsers: users,
+  youtubeChannels: channelHandles
 })
 
 const dist = "dist"

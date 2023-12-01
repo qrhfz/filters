@@ -8,6 +8,11 @@ nitter.net##.timeline-item:has(a:has-text(/jual/i))
 <% it.twitterUsers.forEach(function(username){ %>
 nitter.net##.timeline-item:has(a.username[title="@<%= username %>"])
 <% }) %>
+
+<% it.youtubeChannels.forEach(function(handle){ %>
+##ytd-video-renderer.ytd-item-section-renderer.style-scope:has(#channel-info>ytd-channel-name a[href="/@<%= handle %>"])
+<% }) %>
+
 <% /* kompas.com */ %>
 kompas.com##.kcm-track
 kompas.com##.gate-kgplus
