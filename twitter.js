@@ -30,6 +30,8 @@ export const users = [
   "Lveidea",
   "candulucu",
   "lah_moment",
+  "racunbycel",
+  "AldenaRegita",
   // buzzer
   "cuitcuap_",
   "info_beragam",
