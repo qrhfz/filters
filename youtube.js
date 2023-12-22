@@ -9,5 +9,9 @@ export const channelHandles = [
   "OverlordDVD",
   "EndymionTv",
   "BaggageClaim",
-  "thejessegrant"
+  "thejessegrant",
+  "corbuzier",
+  "jedanulis",
+  "gwirjawan",
+  "HelmyYahyaBicara"
 ]
